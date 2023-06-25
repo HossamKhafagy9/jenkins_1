@@ -1,0 +1,2 @@
+@Library('sprints_pipe')_
+full_pipeline()
