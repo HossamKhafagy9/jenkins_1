@@ -1,3 +1,15 @@
 @Library('sprints') _
 
-pipeline()
+pipeline {
+    agent any
+
+    stages {
+        stage('Build') {
+            steps {
+                script {
+                    pipeline()
+                }
+            }
+        }
+    }
+}
