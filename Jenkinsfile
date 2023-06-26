@@ -1,2 +1,2 @@
-@Library('sprints_pipeline')_
-full_pipeline()
+@Library('sprints')_
+
