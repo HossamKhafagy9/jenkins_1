@@ -19,11 +19,13 @@ Authorization, on the other hand, is the process of granting or denying access r
 
 make jenkins-shared-library and make your jenkinsfile which you used in lab2 to point to this library 
 
-![Screenshot from 2023-07-06 23-18-33](https://github.com/HossamKhafagy9/jenkins_3/assets/68228871/2799ab0f-4c9f-4f02-813d-640dfcb383fe)
+![Screenshot from 2023-07-06 23-27-03](https://github.com/HossamKhafagy9/jenkins_3/assets/68228871/cb654092-1d85-4a2b-a2cb-93c9991d7769)
+
 
 ![Screenshot from 2023-07-06 22-22-14](https://github.com/HossamKhafagy9/jenkins_3/assets/68228871/7709547d-8424-466a-ace5-cba01df84575)
 
-![Screenshot from 2023-07-06 23-15-39](https://github.com/HossamKhafagy9/jenkins_3/assets/68228871/3cf4d41c-7851-457f-93fa-2111560b85f7)
+![Screenshot from 2023-07-06 23-27-11](https://github.com/HossamKhafagy9/jenkins_3/assets/68228871/e46164bd-28cd-4d8c-8439-2aef88fb1f7f)
+
 
 try to make new slave as container or ec2 server and configure master to use it 
 
