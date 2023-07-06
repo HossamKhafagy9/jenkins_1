@@ -2,23 +2,11 @@
 
 pipeline {
   agent any
+  
   stages {
-    stage('build') {
+    stage('Execute Groovy Script') {
       steps {
-        echo "building here"
-        build()
-      }
-    }
-
-    stage('Deploy') {
-      steps {
-        deploy()
-      }
-    }
-
-    stage('Good') {
-      steps {
-        good()
+        myScript()
       }
     }
   }
