@@ -4,23 +4,21 @@ pipeline {
   agent any
   
   stages {
-    stage('Execute Groovy Script') {
+    stage('Build') {
       steps {
-        myScript()
+        build()
       }
     }
-  }
-  stages {
-    stage('Executes') {
+    
+    stage('Deploy') {
       steps {
-        myScript()
+        deploy()
       }
     }
-  }
-  stages {
-    stage('Ex') {
+    
+    stage('Good') {
       steps {
-        myScript()
+        good()
       }
     }
   }
