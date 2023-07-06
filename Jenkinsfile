@@ -11,14 +11,14 @@ pipeline {
     }
   }
   stages {
-    stage('Execute Groovy Script') {
+    stage('Executes') {
       steps {
         myScript()
       }
     }
   }
   stages {
-    stage('Execute Groovy Script') {
+    stage('Ex') {
       steps {
         myScript()
       }
