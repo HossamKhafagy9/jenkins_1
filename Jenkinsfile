@@ -1,4 +1,4 @@
-@Library('sprint-library')_
+@Library('sprints')_
 pipeline {
      agent any
      stages{
