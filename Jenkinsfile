@@ -1,4 +1,5 @@
 @Library('sprints') _
+
 pipeline {
   agent any
   stages {
@@ -7,22 +8,17 @@ pipeline {
         build()
       }
     }
-  }
 
-  stages {
     stage('Deploy') {
       steps {
         deploy()
       }
     }
-  }
 
-  stages {
     stage('Good') {
       steps {
         good()
       }
     }
   }
-
 }
